@@ -60,9 +60,12 @@
     /* 1rem padding */
     padding: 1rem;
     /* White border of 2px */
+    border: 2px solid #fff;
 }
 
 .overlay>figure>img {
     /* Max width 100% for responsive image */
+    max-width: 100%;
     /* Height auto for keeping the ratio */
+    height: auto;
 }

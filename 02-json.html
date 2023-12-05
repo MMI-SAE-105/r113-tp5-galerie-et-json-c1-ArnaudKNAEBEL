@@ -10,6 +10,7 @@
 
 <body>
     <h1>JSON</h1>
+    <script src="//unpkg.com/alpinejs" defer></script>
     <ul x-data="{
         données:[
         {
@@ -29,10 +30,10 @@
         }
         ],
         }">
-        <template>
+        <template x-for="const obj in données">
             <li>
-                <span x-text="obj_nom">nom</span>
-                <a>projet</a>
+                <span x-text="obj.nom">nom</span>
+                <a :href="obj.url" x-text="obj.projet">projet</a>
             </li>
         </template>
     </ul>

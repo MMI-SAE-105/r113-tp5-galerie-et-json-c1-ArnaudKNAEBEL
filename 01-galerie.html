@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP-Gallerie et Chargement JSON</title>
     <link rel="stylesheet" href="/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
 <body x-data="{imageduChien: 'https://picsum.photos/id/237/400/300'}">
     <h1>Galerie</h1>
     <p>lorem</p>
     <div class="overlay">
-        <figure><img src="imageduChien" alt="image 237... un chiot"></figure>
+        <figure>
+            <img :src="imageduChien" alt="image 237... un chiot">
+        </figure>
     </div>
 </body>
 

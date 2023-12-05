@@ -35,6 +35,7 @@
     /* Centered text */
     text-align: center;
     /* Line height ( idem height ) */
+    line-height: 2rem;
     /* Display as a block */
     display: block;
     /* Position absolute */

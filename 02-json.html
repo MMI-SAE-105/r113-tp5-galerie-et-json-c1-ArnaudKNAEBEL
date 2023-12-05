@@ -37,6 +37,13 @@
             </li>
         </template>
     </ul>
+    <ul x-data="{
+            async données() {
+                const resp = await fetch('donnees.json');
+                return await resp.json();
+            }
+        }">
+    </ul>
 </body>
 
 </html>

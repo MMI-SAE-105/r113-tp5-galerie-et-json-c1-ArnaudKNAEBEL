@@ -38,6 +38,7 @@
     /* Display as a block */
     display: block;
     /* Position absolute */
+    position: absolute;
     /* 1rem from the top */
     /* 1rem from the right */
     /* 2rem width */

@@ -14,12 +14,13 @@
     /* Stay at the bottom */
     bottom: 0;
     /* Black background with opacity */
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     /* Add a pointer on hover */
     cursor: pointer;
     /* Use a grid for easy centering */
     display: grid;
     /* Center vertically and horizontally */
+    place-content: center;
 }
 
 .overlay::after {

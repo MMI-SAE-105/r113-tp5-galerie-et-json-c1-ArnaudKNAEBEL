@@ -13,7 +13,7 @@
 <body x-data="{imageduChien: 'https://picsum.photos/id/237/400/300'}">
     <h1>Galerie</h1>
     <p>lorem</p>
-    <div class="overlay" x-show=null>
+    <div class="overlay" x-show="imageduChien" @click="imageduChien = null" @keyup.escape.window="imageduChien = null">
         <figure>
             <img :src="imageduChien" alt="image 237... un chiot">
         </figure>

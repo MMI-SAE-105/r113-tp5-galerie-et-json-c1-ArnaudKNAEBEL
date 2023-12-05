@@ -49,7 +49,9 @@
     /* 2rem height */
     height: 2rem;
     /* White border of 2px */
+    border: 2px solid #fff;
     /* Rounded border */
+    border-radius: 50%;
 }
 
 .overlay>figure {

@@ -14,7 +14,9 @@
     /* Stay at the bottom */
     bottom: 0;
     /* Black background with opacity */
+    background: rgba(0, 0, 0, 0.8);
     /* Add a pointer on hover */
+    cursor: pointer;
     /* Use a grid for easy centering */
     /* Center vertically and horizontally */
 }

@@ -36,6 +36,7 @@
     text-align: center;
     /* Line height ( idem height ) */
     /* Display as a block */
+    display: block;
     /* Position absolute */
     /* 1rem from the top */
     /* 1rem from the right */
